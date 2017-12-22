@@ -159,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
@@ -259,6 +260,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libgpustats.so:system/vendor/lib/libgpustats.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
@@ -304,6 +307,19 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libasphere.so:system/vendor/lib/soundfx/libasphere.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:system/vendor/lib/soundfx/libaudiopreprocessing.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libbundlewrapper.so:system/vendor/lib/soundfx/libbundlewrapper.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libdownmix.so:system/vendor/lib/soundfx/libdownmix.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libeffectproxy.so:system/vendor/lib/soundfx/libeffectproxy.so\
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libldnhncr.so:system/vendor/lib/soundfx/libldnhncr.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:system/vendor/lib/soundfx/libqcompostprocbundle.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:system/vendor/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libreverbwrapper.so:system/vendor/lib/soundfx/libreverbwrapper.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libshoebox.so:system/vendor/lib/soundfx/libshoebox.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libvisualizer.so:system/vendor/lib/soundfx/libvisualizer.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libvolumelistener.so:system/vendor/lib/libvolumelistener.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -322,6 +338,34 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/qcril_fancy.db:system/vendor/etc/qcril_fancy.db \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
@@ -536,6 +580,19 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libasphere.so:system/vendor/lib64/soundfx/libasphere.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:system/vendor/lib64/soundfx/libaudiopreprocessing.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:system/vendor/lib64/soundfx/libbundlewrapper.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libdownmix.so:system/vendor/lib64/soundfx/libdownmix.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libeffectproxy.so:system/vendor/lib64/soundfx/libeffectproxy.so\
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libldnhncr.so:system/vendor/lib64/soundfx/libldnhncr.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:system/vendor/lib64/soundfx/libqcompostprocbundle.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:system/vendor/lib64/soundfx/libqcomvisualizer.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:system/vendor/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:system/vendor/lib64/soundfx/libreverbwrapper.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libshoebox.so:system/vendor/lib64/soundfx/libshoebox.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libvisualizer.so:system/vendor/lib64/soundfx/libvisualizer.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libvolumelistener.so:system/vendor/lib64/libvolumelistener.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -626,6 +683,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
