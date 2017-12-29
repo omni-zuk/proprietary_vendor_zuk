@@ -609,6 +609,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/msm8996-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libaptXScheduler.so:system/lib/libaptXScheduler.so \
     vendor/zuk/msm8996-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
