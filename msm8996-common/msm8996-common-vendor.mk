@@ -720,7 +720,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zuk/msm8996-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/zuk/msm8996-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zuk/msm8996-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/zuk/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
