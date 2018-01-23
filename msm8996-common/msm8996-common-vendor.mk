@@ -612,6 +612,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/zuk/msm8996-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -706,6 +708,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/zuk/msm8996-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zuk/msm8996-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/zuk/msm8996-common/proprietary/bin/imscmservice:system/bin/imscmservice \
