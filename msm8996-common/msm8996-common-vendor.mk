@@ -290,9 +290,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libFidoSuiJNI.so:system/vendor/lib/libFidoSuiJNI.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
