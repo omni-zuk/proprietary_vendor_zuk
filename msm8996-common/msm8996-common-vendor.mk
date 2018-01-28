@@ -792,7 +792,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/zuk/msm8996-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zuk/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/zuk/msm8996-common/proprietary/vendor/bin/init.qcom.sensors.sh:system/vendor/bin/init.qcom.sensors.sh \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/zuk/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zuk/msm8996-common/proprietary/bin/pm-service:system/bin/pm-service \
