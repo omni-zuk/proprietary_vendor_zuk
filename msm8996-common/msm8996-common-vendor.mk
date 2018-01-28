@@ -1,4 +1,3 @@
-
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -670,7 +669,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/zuk/msm8996-common/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/zuk/msm8996-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
@@ -793,6 +792,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/zuk/msm8996-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zuk/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/init.qcom.sensors.sh:system/vendor/bin/init.qcom.sensors.sh \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/zuk/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zuk/msm8996-common/proprietary/bin/pm-service:system/bin/pm-service \
@@ -815,7 +815,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/zuk/msm8996-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
-    vendor/zuk/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/zuk/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/zuk/msm8996-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/zuk/msm8996-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
