@@ -364,6 +364,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+	vendor/zuk/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
@@ -409,6 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+	vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblocationservice_jni.so:system/vendor/lib64/liblocationservice_jni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmcamera2_memleak.so:system/vendor/lib64/libmmcamera2_memleak.so \
@@ -538,6 +540,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libgpustats.so:system/vendor/lib64/libgpustats.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+	vendor/zuk/msm8996-common/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
@@ -594,6 +597,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+	vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
@@ -684,6 +688,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+	vendor/zuk/msm8996-common/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
+	vendor/zuk/msm8996-common/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/init/vendor.qti.gnss@1.0-service.rc \
+	vendor/zuk/msm8996-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
@@ -707,6 +714,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+	vendor/zuk/msm8996-common/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/zuk/msm8996-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zuk/msm8996-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/zuk/msm8996-common/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -721,6 +729,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/zuk/msm8996-common/proprietary/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/zuk/msm8996-common/proprietary/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/zuk/msm8996-common/proprietary/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/zuk/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/zuk/msm8996-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
@@ -728,6 +738,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/zuk/msm8996-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zuk/msm8996-common/proprietary/bin/port-bridge:system/bin/port-bridge \
+	vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/zuk/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zuk/msm8996-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
