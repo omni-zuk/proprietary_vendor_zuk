@@ -789,7 +789,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/zuk/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zuk/msm8996-common/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/zuk/msm8996-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zuk/msm8996-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
