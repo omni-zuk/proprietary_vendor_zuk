@@ -822,7 +822,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/zuk/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/zuk/msm8996-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-     vendor/zuk/msm8996-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/framework/qti-vzw-ims-internal.jar \
+     vendor/zuk/msm8996-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/zuk/msm8996-common/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/zuk/msm8996-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zuk/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
