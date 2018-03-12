@@ -797,7 +797,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/zuk/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/zuk/msm8996-common/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/zuk/msm8996-common/proprietary/bin/vendor/pm-service:system/vendor/bin/pm-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/zuk/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
@@ -818,7 +818,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/zuk/msm8996-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/zuk/msm8996-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zuk/msm8996-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/zuk/msm8996-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
