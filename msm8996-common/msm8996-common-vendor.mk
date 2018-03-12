@@ -792,14 +792,12 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/zuk/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/zuk/msm8996-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/zuk/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/zuk/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zuk/msm8996-common/proprietary/bin/vendor/pm-service:system/vendor/bin/pm-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
-    vendor/zuk/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
