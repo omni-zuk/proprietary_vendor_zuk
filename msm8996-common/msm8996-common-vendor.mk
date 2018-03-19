@@ -856,6 +856,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
     vendor/zuk/msm8996-common/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
     vendor/zuk/msm8996-common/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libhexagon_nn_controller.so:system/vendor/lib64/libhexagon_nn_controller.so \
     vendor/zuk/msm8996-common/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
     vendor/zuk/msm8996-common/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
     vendor/zuk/msm8996-common/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
